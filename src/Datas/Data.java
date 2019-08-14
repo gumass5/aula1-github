@@ -12,7 +12,7 @@ public class Data {
 		SimpleDateFormat sdf2= new SimpleDateFormat ("dd/MM/yy HH:mm:ss");
 		
 		Date y1=sdf1.parse("05/11/1996");
-		Date y2=sdf2.parse("05/11/1996 23:42:34");
+		Date y2=sdf2.parse("02/10/1969 11:42:34");
 		Date y3=Date.from(Instant.parse("1996-11-05T15:55:42Z"));		
 				
 				System.out.println(sdf1.format(y1));
